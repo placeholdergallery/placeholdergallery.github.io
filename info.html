@@ -1,0 +1,68 @@
+<html>
+
+<!-- Browser Tab Info -->
+<link rel="icon" href="assets/favicon.png">
+<title>Placeholder</title>
+
+<head>
+<!-- Link Styles -->
+	<link rel="stylesheet" href="assets/style.css">
+	
+	<style type="text/css">
+	</style>
+	
+	<!-- Generate Random Address and Zipcode from Arrays -->
+	<script>
+		let addresses = ['2030 W Jefferson Blvd', '2925 S Western Ave', '3418 La Cienega Blvd','2201 W Adams Blvd','3406 W Washington Blvd','1864 S La Brea Ave'];
+		let zipcodes = ['90012','90026','90057','90017','90071','90031','90013','90071','90021','90015','90007','90007','90089','90029','90005','90004'];
+		let randomAddress = addresses[Math.floor(Math.random() * addresses.length)];
+		let randomZipcode = zipcodes[Math.floor(Math.random() * zipcodes.length)];
+	</script>
+	
+	<!-- Header -->
+	<div id="title">
+		<p class="title">
+		<a href="index.html">PLACEHOLDER</a><i>
+		</p>
+	</div>
+	<div id="header">
+		<p class="header">
+		<a href="exhibitions.html">Exhibitions</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="artists.html">Artists</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="info.html">Info</a></i>
+		</p>
+	</div>
+	
+	<!-- Content -->
+	<div class="content" id="content">
+		</br></br></br></br></br>
+		Placeholder </br>
+		<!-- Print Random Address -->
+		<script>
+			document.write(randomAddress);
+		</script>
+		</br>
+		Los Angeles, CA, 
+		<!-- Print Random Address -->
+		<script>
+			document.write(randomZipcode);
+		</script></br></br>
+		1 000 000 0000</br>
+		info@placeholder.com</br>
+		<a href="instagram.com/closebutnosicard">Instagram</a></br>
+		</br>
+		Placeholder is a gallery dedicated to emerging </br>
+		artists whose work critiques the systematic </br>
+		production of socio-economic inequality.</br></br>
+		Visits are currently arranged by appointment only.
+	</div>
+
+	<div class="info" id="info">
+		</br></br></br></br></br>
+		<img src="images/Frontage.jpg" width=90%>
+	</div>
+
+</head>
+</html>
