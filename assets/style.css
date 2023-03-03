@@ -22,6 +22,18 @@
     overflow: hidden;
 }
 
+#comingsoon
+ 		{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width:20%;
+    height:20%;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+}
+
 #content
         {
     position: absolute;
@@ -77,6 +89,13 @@ iframe {
     -moz-text-align-last: justify;
 }
 	
+.comingsoon {
+	font-size: 10px;
+	line-height: 30px;
+	font-family: garamond;
+	text-align: center;
+	color: black;
+}
 
 .header {
 	font-size: 14px;
