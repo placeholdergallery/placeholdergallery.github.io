@@ -197,18 +197,19 @@ a:active {
     100% {opacity: 0;}
 }
 
+
 #f1 {
-	-webkit-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 #f2 {
-    -webkit-animation-delay: -4s;
-}
-#f3 {
-    -webkit-animation-delay: -7s;
-}
-#f4 {
     -webkit-animation-delay: -8s;
 }
+#f3 {
+    -webkit-animation-delay: -16s;
+}
+#f4 {
+    -webkit-animation-delay: -24s;
+}
 #f5 {
-    -webkit-animation-delay: -11s;
+    -webkit-animation-delay: -32s;
 }
