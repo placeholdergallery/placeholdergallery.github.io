@@ -152,10 +152,10 @@ iframe {
     position:absolute;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 17s;
+    -webkit-animation-duration: 10s;
     animation-name: fade;
     animation-iteration-count: infinite;
-    animation-duration: 17s;
+    animation-duration: 10s;
 }
 
 a:link {
@@ -202,14 +202,14 @@ a:active {
     -webkit-animation-delay: 0s;
 }
 #f2 {
-    -webkit-animation-delay: -8s;
+    -webkit-animation-delay: -2s;
 }
 #f3 {
-    -webkit-animation-delay: -16s;
+    -webkit-animation-delay: -4s;
 }
 #f4 {
-    -webkit-animation-delay: -24s;
+    -webkit-animation-delay: -6s;
 }
 #f5 {
-    -webkit-animation-delay: -32s;
+    -webkit-animation-delay: -8s;
 }
