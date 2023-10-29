@@ -110,12 +110,15 @@ iframe {
 	color: black;
 		}
 		
+.ignore-css{
+	all:unset;
+	position: static;
+}
+
 .iframe2{
 	position: relative;
 	top: 30%;
     left: 0%;
-    width:320px;
-    height:230px;
 }
 
 .description {
