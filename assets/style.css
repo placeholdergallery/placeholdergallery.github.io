@@ -14,9 +14,36 @@
   font-family: 'Junicode';
   src: url('fonts/Junicode.woff') format('woff');
   font-family: 'Newsreader-Italic';
-  src: url('fonts/Newsreader-Italic.woff2') format('woff2');
+  src: url('fonts/Newsreader-Italic[opsz,wght].woff') format('woff');
   font-family: 'Newsreader';
-  src: url('fonts/Newsreader.woff2') format('woff2');
+  src: url('fonts/Newsreader[opsz,wght].woff') format('woff');
+
+/*  font-family: 'Newsreader6pt-Bold';
+  src: url('fonts/Newsreader6pt-Bold.woff') format('woff');
+  font-family: 'Newsreader6pt-BoldItalic';
+  src: url('fonts/Newsreader6pt-BoldItalic.woff') format('woff');
+  font-family: 'Newsreader6pt-ExtraBold';
+  src: url('fonts/Newsreader6pt-ExtraBold.woff') format('woff');
+  font-family: 'Newsreader6pt-ExtraBoldItalic';
+  src: url('fonts/Newsreader6pt-ExtraBoldItalic.woff') format('woff');
+  font-family: 'Newsreader6pt-ExtraLight';
+  src: url('fonts/Newsreader6pt-ExtraLight.woff') format('woff');
+  font-family: 'Newsreader6pt-ExtraLightItalic';
+  src: url('fonts/Newsreader6pt-ExtraLightItalic.woff') format('woff');
+  font-family: 'Newsreader6pt-Italic';
+  src: url('fonts/Newsreader6pt-Italic.woff') format('woff');
+  font-family: 'Newsreader6pt-Light';
+  src: url('fonts/Newsreader6pt-Light.woff') format('woff');
+  font-family: 'Newsreader6pt-LightItalic';
+  src: url('fonts/Newsreader6pt-LightItalic.woff') format('woff');
+  font-family: 'Newsreader6pt-Medium';
+  src: url('fonts/Newsreader6pt-Medium.woff') format('woff');
+  font-family: 'Newsreader6pt-MediumItalic';
+  src: url('fonts/Newsreader6pt-MediumItalic.woff') format('woff');
+  font-family: 'Newsreader6pt-Regular';
+  src: url('fonts/Newsreader6pt-Regular.woff') format('woff');
+  */ 
+
 }
 
 #title
@@ -28,13 +55,13 @@
     height:20%;
     z-index: 2;
     display: block;
-    font-family: 'garamond', serif;
+    font-family: 'Junicode', serif;
     overflow: hidden;
 }
 
 #header
         {
-    font-family: 'garamond', serif;
+    font-family: 'Junicode', serif;
     position: fixed;
     top: 2%;
     left: 45%;
@@ -59,7 +86,7 @@
 
 #content
         {
-    font-family: 'Cardo', serif;
+    font-family: 'Newsreader', serif;
     position: fixed;
     top: 13%;
     left: 22%;
@@ -83,7 +110,7 @@
     display: block;
     font-size: 10px;
 	line-height: 18px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	overflow: scroll;
     text-align: justify;
 	color: black;
@@ -100,7 +127,7 @@
     display: block;
     font-size: 10px;
 	line-height: 18px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
     text-align: justify;
 	color: black;
 }
@@ -115,7 +142,7 @@
     height:500px;
 	font-size: 10px;
 	z-index:5;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 }
 
 iframe {
@@ -129,7 +156,7 @@ iframe {
     display: block;
     font-size: 10px;
 	line-height: 18px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	overflow: scroll;
 	color: black;
 		}
@@ -148,7 +175,7 @@ iframe {
 .description {
 	font-size: 11px;
 	line-height: 20px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -157,7 +184,7 @@ iframe {
 .comingsoon {
 	font-size: 10px;
 	line-height: 30px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	text-align: center;
 	color: black;
 }
@@ -165,7 +192,7 @@ iframe {
 .header {
 	font-size: 14px;
 	line-height: 30px;
-	font-family: 'garamond', serif;
+	font-family: 'Junicode', serif;
 	text-align: left;
 	color: black;
 	background-color: white;
@@ -174,7 +201,7 @@ iframe {
 .title {
 	font-size: 14px;
 	line-height: 30px;
-	font-family: 'garamond', serif;
+	font-family: 'Junicode', serif;
 	text-align: left;
 	color: black;
 	background-color: white;
@@ -183,7 +210,7 @@ iframe {
 .content {
 	font-size: 11px;
 	line-height: 20px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -192,7 +219,7 @@ iframe {
 .info {
 	font-size: 11px;
 	line-height: 20px;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 	color: black;
 	border:0;
 	margin: 0;
@@ -214,7 +241,7 @@ iframe {
     height:20%;
 	font-size: 10px;
 	z-index:5;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 }
 
 .caption {
@@ -226,7 +253,7 @@ iframe {
     left: 0%;
     width:100%;
     height:20%;
-	font-family: 'Cardo', serif;
+	font-family: 'Newsreader', serif;
 }
 
 .fadein img {
