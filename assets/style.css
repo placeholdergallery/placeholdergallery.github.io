@@ -55,13 +55,11 @@
     height:20%;
     z-index: 2;
     display: block;
-    font-family: 'Junicode', serif;
     overflow: hidden;
 }
 
 #header
         {
-    font-family: 'Junicode', serif;
     position: fixed;
     top: 2%;
     left: 45%;
@@ -87,6 +85,7 @@
 #content
         {
     font-family: 'Newsreader', serif;
+    font-stretch: 10%;
     position: fixed;
     top: 13%;
     left: 22%;
@@ -111,6 +110,7 @@
     font-size: 10px;
 	line-height: 18px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 90%;
 	overflow: scroll;
     text-align: justify;
 	color: black;
@@ -128,6 +128,7 @@
     font-size: 10px;
 	line-height: 18px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 90%;
     text-align: justify;
 	color: black;
 }
@@ -143,6 +144,7 @@
 	font-size: 10px;
 	z-index:5;
 	font-family: 'Newsreader', serif;
+  font-stretch: 90%;
 }
 
 iframe {
@@ -176,6 +178,7 @@ iframe {
 	font-size: 11px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -185,6 +188,7 @@ iframe {
 	font-size: 10px;
 	line-height: 30px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 	text-align: center;
 	color: black;
 }
@@ -193,6 +197,7 @@ iframe {
 	font-size: 14px;
 	line-height: 30px;
 	font-family: 'Junicode', serif;
+  font-stretch: 100%;
 	text-align: left;
 	color: black;
 	background-color: white;
@@ -201,7 +206,8 @@ iframe {
 .title {
 	font-size: 14px;
 	line-height: 30px;
-	font-family: 'Junicode', serif;
+	font-family: 'Junicode', sans-serif;
+  font-stretch: 100%;
 	text-align: left;
 	color: black;
 	background-color: white;
@@ -211,6 +217,7 @@ iframe {
 	font-size: 11px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -220,6 +227,7 @@ iframe {
 	font-size: 11px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 	color: black;
 	border:0;
 	margin: 0;
@@ -242,6 +250,7 @@ iframe {
 	font-size: 10px;
 	z-index:5;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 }
 
 .caption {
@@ -254,6 +263,7 @@ iframe {
     width:100%;
     height:20%;
 	font-family: 'Newsreader', serif;
+  font-stretch: 100%;
 }
 
 .fadein img {
