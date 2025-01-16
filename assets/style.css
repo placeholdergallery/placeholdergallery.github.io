@@ -293,7 +293,7 @@ iframe {
 }
 
 
-/* On MOBILE screens that are 992px wide or less and not in landscape */
+/* On MOBILE screens that are 992px wide or less and not in landscape 
 @media screen and (max-width: 992px) and (min-height: 500px) {
 
 
@@ -538,6 +538,7 @@ iframe {
 
 }
 
+*/
 
 
 /* **************. BELOW IS FOR ALL FORMATS  *************** */
