@@ -336,10 +336,10 @@ iframe {
                 #content
                         {
                     position: fixed;
-                    top: 7%;
+                    top: 10%;
                     left: 10%;
                     width:80%;
-                    height:93%;
+                    height:90%;
                     z-index: 2;
                     display: block;
                     overflow: scroll;
@@ -380,10 +380,10 @@ iframe {
                 #infoimage
                         {
                     position: fixed;
-                    top: 13%;
-                    left: 50%;
+                    top: 12%;
+                    left: 55%;
                     width:30%;
-                    height:38%;
+                    height:40%;
                     z-index: 4;
                     display: block;
                     font-size: 10px;
@@ -409,10 +409,10 @@ iframe {
                 iframe {
                     position: fixed;
                     border:0;
-                    top: 34%;
+                    top: 38%;
                     left: 10%;
                     width:80%;
-                    height:66%;
+                    height:62%;
                     z-index: 4;
                     display: block;
                     font-size: 20px;
