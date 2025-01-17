@@ -1177,7 +1177,7 @@ iframe {
 								        {
 								    position: fixed;
 								    text-align: center;
-								    top: 0.5%;
+								    top: 0%;
 								    /* 
 								    left: 35%;
 								    width:80%;
@@ -1466,6 +1466,9 @@ iframe {
     animation-duration: 30s;
 }
 */
+
+
+/* Determines how links look*/
 
 a:link {
  	color: black;
