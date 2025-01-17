@@ -3,6 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400display=swap');
 </style>
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 @font-face {
   font-family: 'Junicode-Bold';
@@ -51,6 +62,7 @@
 /* **************. BELOW IS FOR DESKTOP  *************** */
 
 /* All # items below create ids */
+
 
 #title
         {
@@ -225,7 +237,6 @@ iframe {
 	font-size: 11px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
-  font-stretch: 100%;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -235,7 +246,6 @@ iframe {
 	font-size: 10px;
 	line-height: 30px;
 	font-family: 'Newsreader', serif;
-  font-stretch: 100%;
 	text-align: center;
 	color: black;
 }
@@ -245,17 +255,22 @@ iframe {
 	font-size: 18px;
 	line-height: 30px;
 	font-family: 'Junicode', serif;
-  	font-stretch: 100%;
 	text-align: left;
 	color: black;
 	background-color: white;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+    display: none;
+}
+
 .content {
+	-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 	scrollbar-width: none;  /* hides scrollbar in Firefox */
 	font-size: 13px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
-  	font-stretch: 100%;
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
@@ -521,8 +536,15 @@ iframe {
 					background-color: white;
 				}
 
+				/* Hide scrollbar for Chrome, Safari and Opera */
+				.content::-webkit-scrollbar {
+    			display: none;
+				}
+
 				.content {
-					font-size: 13px;
+					-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 					scrollbar-width: none;  /* hides scrollbar in Firefox */
+ 					font-size: 13px;
 					line-height: 20px;
 					font-family: 'Newsreader', serif;
 				  	font-stretch: 100%;
@@ -792,7 +814,14 @@ iframe {
 	background-color: white;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+	display: none;
+}
+
 .content {
+	-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 	scrollbar-width: none;  /* hides scrollbar in Firefox */
 	font-size: 13px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
@@ -1064,7 +1093,14 @@ iframe {
 			background-color: white;
 		}
 
+		/* Hide scrollbar for Chrome, Safari and Opera */
+		.content::-webkit-scrollbar {
+    		display: none;
+		}
+
 		.content {
+			-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 			scrollbar-width: none;  /* hides scrollbar in Firefox */
 			font-size: 13px;
 			line-height: 20px;
 			font-family: 'Newsreader', serif;
@@ -1200,6 +1236,7 @@ iframe {
 								    display: block;
 								    overflow: hidden;
 								}
+
 
 								#content
 								        {
@@ -1339,7 +1376,14 @@ iframe {
 									background-color: white;
 								}
 
+								/* Hide scrollbar for Chrome, Safari and Opera */
+								.content::-webkit-scrollbar {
+					    			display: none;
+								}
+
 								.content {
+									-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 									scrollbar-width: none;  /* hides scrollbar in Firefox */
 									font-size: 13px;
 									line-height: 20px;
 									font-family: 'Newsreader', serif;
