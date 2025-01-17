@@ -320,7 +320,7 @@ iframe {
 
 
  /* On screens that are 750px wide or less */
-		@media screen and (max-width: 750px) /* and (min-height: 0px) */ {
+		@media screen and (max-width: 750px) and (min-height: 400px) {
 
 				#title
 				        {
@@ -592,13 +592,13 @@ iframe {
 
 
 				/* On screens that are 750px wide or less */
-						@media screen and (max-width: 430px) /* and (min-height: 0px) */ {
+						@media screen and (max-width: 430px) and (min-height: 400px) {
 
 								#title
 								        {
 								    position: fixed;
 								    text-align: center;
-								    top: 1%;
+								    top: 0.5%;
 								    /* 
 								    left: 35%;
 								    width:80%;
