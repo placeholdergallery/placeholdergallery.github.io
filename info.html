@@ -5,35 +5,36 @@
 <title>Placeholder</title>
 
 <head>
-<!-- Link Styles -->
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<!-- Link Styles -->
 	<link rel="stylesheet" href="assets/style.css">
 	
 	<style type="text/css">
 	</style>
 	
-	<!-- Generate Random Address and Zipcode from Arrays -->
-	<script>
-		let addresses = ['2030 W Jefferson Blvd', '2925 S Western Ave', '3418 La Cienega Blvd','2201 W Adams Blvd','3406 W Washington Blvd','1864 S La Brea Ave'];
-		let zipcodes = ['90012','90026','90057','90017','90071','90031','90013','90071','90021','90015','90007','90007','90089','90029','90005','90004'];
-		let randomAddress = addresses[Math.floor(Math.random() * addresses.length)];
-		let randomZipcode = zipcodes[Math.floor(Math.random() * zipcodes.length)];
-	</script>
-	
 	<!-- Header -->
-	<div id="title">
-		<p class="title">
-		<a href="index.html">PLACEHOLDER</a><i>
+	<div class="header">
+		<p id="title">
+		<a href="index.html">PLACEHOLDER</a>
 		</p>
 	</div>
-	<div id="header">
-		<p class="header">
+
+		<i>
+		<p class="header" id="header_exhibitions">
 		<a href="exhibitions.html">Exhibitions</a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</p>
+	<!--	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+		<p class="header" id="header_artists">
 		<a href="artists.html">Artists</a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</p>
+	<!--	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+		<p class="header" id="header_info">	
 		<a href="info.html">Info</a></i>
 		</p>
-	</div>
+
+		</i>
 	
 	<!-- Content -->
 	<div class="content" id="content">
@@ -49,7 +50,6 @@
 		<script>
 			document.write(randomZipcode);
 		</script></br></br>
-		1 000 000 0000</br>
 		placeholdergalleryla@gmail.com</br>
 		<!-- info@placeholdergallery.com</br> -->
 		<a href="https://www.instagram.com/placeholder.gallery/" target="blank">Instagram</a></br>
@@ -117,10 +117,12 @@ End Attempt at Random Image Generation -->
 
 	</div>
 
-	<div class="infoimage" id="infoimage">
-		</br></br></br></br></br></br>
-		<img src="images/Frontage.jpg" width=105%>
-	</div>
+
+<div class="infoimage" id="infoimage"></br></br></br></br></br>
+
+	<img src="images/RandomImages/3.jpg" id="image_shower" width="80%">
+
+</div>
 
 </head>
 </html>

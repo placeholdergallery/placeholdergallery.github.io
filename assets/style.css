@@ -50,6 +50,8 @@
 
 /* **************. BELOW IS FOR DESKTOP  *************** */
 
+/* All # items below create ids */
+
 #title
         {
     position: fixed;
@@ -62,11 +64,36 @@
     overflow: hidden;
 }
 
-#header
+#header_exhibitions
         {
     position: fixed;
     top: 2%;
-    left: 45%;
+    left: 43%;
+    width:56%;
+    height:20%;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+}
+
+#header_artists
+        {
+    position: fixed;
+    top: 2%;
+    left: 60%;
+    width:56%;
+    height:20%;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+}
+
+#header_info
+        {
+    position: fixed;
+    text-justify: right;
+    top: 2%;
+    left: 75%;
     width:56%;
     height:20%;
     z-index: 2;
@@ -100,7 +127,9 @@
     -moz-text-align-last: justify;
 }
 
-#content1
+/* #content1 id is used for text in iframe on Artists page */
+
+#content1 
         {
     position: fixed;
     top: 11%;
@@ -123,7 +152,6 @@
     height:100%;
     z-index: 4;
     display: block;
-    font-size: 10px;
 	line-height: 18px;
 	font-family: 'Newsreader', serif;
   font-stretch: 90%;
@@ -144,7 +172,7 @@
     font-size: 10px;
 	line-height: 18px;
 	font-family: 'Newsreader', serif;
-  font-stretch: 90%;
+  	font-stretch: 90%;
     text-align: justify;
 	color: black;
 }
@@ -167,8 +195,8 @@ iframe {
   	position: fixed;
   	border:0;
     top: 14%;
-    left: 45%;
-    width:30%;
+    left: 43%;
+    width:35%;
     height:90%;
     z-index: 4;
     display: block;
@@ -178,7 +206,10 @@ iframe {
 	overflow: scroll;
 	color: black;
 		}
-		
+
+
+/* All . items below create classes */
+
 .ignore-css{
 	all:unset;
 	position: static;
@@ -209,28 +240,19 @@ iframe {
 	color: black;
 }
 
-.header {
-	font-size: 14px;
-	line-height: 30px;
-	font-family: 'Junicode', serif;
-  font-stretch: 100%;
-	text-align: left;
-	color: black;
-	background-color: white;
-}
 
-.title {
-	font-size: 14px;
+.header {
+	font-size: 18px;
 	line-height: 30px;
 	font-family: 'Junicode', serif;
-  font-stretch: 100%;
+  	font-stretch: 100%;
 	text-align: left;
 	color: black;
 	background-color: white;
 }
 
 .content {
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
   font-stretch: 100%;
@@ -239,8 +261,10 @@ iframe {
     -moz-text-align-last: justify;
 }
 
+/* Below .content1 class describes text in iframe */
+
 .content1 {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   font-family: 'Newsreader', serif;
   font-stretch: 100%;
@@ -250,7 +274,7 @@ iframe {
 }
 
 .info {
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
   font-stretch: 100%;
@@ -293,252 +317,277 @@ iframe {
 }
 
 
-/* On MOBILE screens that are 992px wide or less and not in landscape 
-@media screen and (max-width: 992px) and (min-height: 500px) {
+ /* On MOBILE screens that are 992px wide or less and not in landscape */
+		@media screen and (max-width: 750px) and (min-height: 0px) {
+
+				#title
+				        {
+				    position: fixed;
+				    top: 2%;
+				    left: 10%;
+				    width:80%;
+				    height:20%;
+				    z-index: 2;
+				    display: block;
+				    overflow: hidden;
+				}
+
+				#header_exhibitions
+				        {
+				    position: fixed;
+				    top: 2%;
+				    left: 39%;
+				    width:56%;
+				    height:20%;
+				    z-index: 2;
+				    display: block;
+				    overflow: hidden;
+				}
+
+				#header_artists
+				        {
+				    position: fixed;
+				    top: 2%;
+				    left: 57%;
+				    width:56%;
+				    height:20%;
+				    z-index: 2;
+				    display: block;
+				    overflow: hidden;
+				}
+
+				#header_info
+				        {
+				    position: fixed;
+				    text-justify: right;
+				    top: 2%;
+				    left: 75%;
+				    width:56%;
+				    height:20%;
+				    z-index: 2;
+				    display: block;
+				    overflow: hidden;
+				}
+
+				#comingsoon
+				 		{
+				    position: fixed;
+				    top: 40%;
+				    left: 40%;
+				    width:20%;
+				    height:20%;
+				    z-index: 2;
+				    display: block;
+				    overflow: hidden;
+				}
+
+				#content
+				        {
+				    position: fixed;
+				    top: 11%;
+				    left: 10%;
+				    width:80%;
+				    height:89%;
+				    z-index: 2;
+				    display: block;
+				    overflow: scroll;
+				    text-align: justify;
+				    -moz-text-align-last: justify;
+				}
+
+				/* #content1 id is used for text in iframe on Artists page */
+
+				#content1 
+				        {
+				    position: fixed;
+				    top: 11%;
+				    left: 10%;
+				    width:80%;
+				    height:89%;
+				    z-index: 2;
+				    display: block;
+				    overflow: scroll;
+				    text-align: justify;
+				    -moz-text-align-last: justify;
+				}
+
+				#info
+				        {
+				    position: absolute;
+				    top: 0%;
+				    left: 0%;
+				    width:100%;
+				    height:100%;
+				    z-index: 4;
+				    display: block;
+					line-height: 18px;
+					font-family: 'Newsreader', serif;
+				  	font-stretch: 90%;
+					overflow: scroll;
+				    text-align: justify;
+					color: black;
+				}
+
+				#infoimage
+				        {
+				    position: fixed;
+				    top: 13%;
+				    left: 50%;
+				    width:30%;
+				    height:38%;
+				    z-index: 4;
+				    display: block;
+				    font-size: 10px;
+					line-height: 18px;
+					font-family: 'Newsreader', serif;
+				  	font-stretch: 90%;
+				    text-align: justify;
+					color: black;
+				}
+
+				#fadein {
+				    position: absolute;
+				    top:0px;
+				    margin:auto;
+				    top: 13%;
+				    left: 22%;
+				    width:56%;
+				    height:500px;
+					font-size: 10px;
+					z-index:5;
+					font-family: 'Newsreader', serif;
+				  font-stretch: 90%;
+				}
+
+				iframe {
+				  	position: fixed;
+				  	border:0;
+				    top: 14%;
+				    left: 40%;
+				    width:40%;
+				    height:90%;
+				    z-index: 4;
+				    display: block;
+				    font-size: 11px;
+					line-height: 18px;
+					font-family: 'Newsreader', serif;
+					overflow: scroll;
+					color: black;
+						}
 
 
-                #title
-                        {
-                    position: fixed;
-                    top: 2%;
-                    left: 10%;
-                    width:80%;
-                    height:20%;
-                    z-index: 2;
-                    display: block;
-                    overflow: hidden;
-                }
+				/* All . items below create classes MORE GENERIC */
 
-                #header
-                        {
-                    position: fixed;
-                    top: 2%;
-                    left: 40%;
-                    width:56%;
-                    height:20%;
-                    z-index: 2;
-                    display: block;
-                    overflow: hidden;
-                }
+				.ignore-css{
+					all:unset;
+					position: static;
+				}
 
-                #comingsoon
-                    {
-                    position: fixed;
-                    top: 40%;
-                    left: 40%;
-                    width:20%;
-                    height:20%;
-                    z-index: 2;
-                    display: block;
-                    overflow: hidden;
-                }
+				.iframe2{
+					position: relative;
+					top: 30%;
+				    left: 0%;
+				}
 
-                #content
-                        {
-                    position: fixed;
-                    top: 10%;
-                    left: 10%;
-                    width:80%;
-                    height:90%;
-                    z-index: 2;
-                    display: block;
-                    overflow: scroll;
-                    text-align: justify;
-                    -moz-text-align-last: justify;
-                }
-
-                #content1
-                        {
-                    position: fixed;
-                    top: 7%;
-                    left: 10%;
-                    width:80%;
-                    height:93%;
-                    z-index: 2;
-                    display: block;
-                    overflow: scroll;
-                    text-align: justify;
-                    -moz-text-align-last: justify;
-                }
-
-                #info
-                        {
-                    position: absolute;
-                    top: 0%;
-                    left: 0%;
-                    width:100%;
-                    height:100%;
-                    z-index: 4;
-                    display: block;
-                    font-size: 10px;
-                    line-height: 18px;
-                    overflow: scroll;
-                    text-align: justify;
-                    color: black;
-                }
-
-                #infoimage
-                        {
-                    position: fixed;
-                    top: 12%;
-                    left: 55%;
-                    width:30%;
-                    height:40%;
-                    z-index: 4;
-                    display: block;
-                    font-size: 10px;
-                    line-height: 18px;
-                    text-align: justify;
-                  color: black;
-                }
-
-                #fadein {
-                    position: absolute;
-                    top:0px;
-                    margin:auto;
-                    top: 13%;
-                    left: 22%;
-                    width:56%;
-                    height:500px;
-                  font-size: 10px;
-                  z-index:5;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 90%;
-                }
-
-                iframe {
-                    position: fixed;
-                    border:0;
-                    top: 38%;
-                    left: 10%;
-                    width:80%;
-                    height:62%;
-                    z-index: 4;
-                    display: block;
-                    font-size: 20px;
-                  line-height: 18px;
-                  font-family: 'Newsreader', serif;
-                  overflow: scroll;
-                  color: black;
-                    }
-                    
-                .ignore-css{
-                  all:unset;
-                  position: static;
-                }
-
-                .iframe2{
-                  position: relative;
-                  top: 30%;
-                    left: 0%;
-                }
-
-                .description {
-                  font-size: 11px;
-                  line-height: 20px;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                  color: black;
-                    text-align: justify;
-                    -moz-text-align-last: justify;
-                }
-                  
-                .comingsoon {
-                  font-size: 10px;
-                  line-height: 30px;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                  text-align: center;
-                  color: black;
-                }
-
-                .header {
-                  font-size: 25px;
-                  line-height: 30px;
-                  font-family: 'Junicode', serif;
-                  font-stretch: 100%;
-                  text-align: left;
-                  color: black;
-                  background-color: white;
-                }
-
-                .title {
-                  font-size: 25px;
-                  line-height: 30px;
-                  font-family: 'Junicode', serif;
-                  font-stretch: 100%;
-                  text-align: left;
-                  color: black;
-                  background-color: white;
-                }
-
-                .content {
-                  font-size: 11px;
-                  line-height: 20px;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                  color: black;
-                    text-align: justify;
-                    -moz-text-align-last: justify;
-                }
-
-                .content1 {
-                  font-size: 21px;
-                  line-height: 24px;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                  color: black;
-                    text-align: justify;
-                    -moz-text-align-last: justify;
-                }
-
-                .info {
-                  font-size: 10px;
-                  line-height: 20px;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                  color: black;
-                  border:0;
-                  margin: 0;
-                  -ms-overflow-style: none;
-                    scrollbar-width: none;
-                }
-
-                .info::-webkit-scrollbar {
-                  display: none;
-                }
-
-                .fadein {
-                    position:absolute;
-                    top:0px;
-                    margin:auto;
-                    top: 13%;
-                    left: 22%;
-                    width:56%;
-                    height:20%;
-                  font-size: 10px;
-                  z-index:5;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                }
-
-                .caption {
-                  font-size: 11px;
-                    position:absolute;
-                    top:0px;
-                    margin:auto;
-                    top: 460px;
-                    left: 0%;
-                    width:100%;
-                    height:20%;
-                  font-family: 'Newsreader', serif;
-                  font-stretch: 100%;
-                }
+				.description {
+					font-size: 11px;
+					line-height: 20px;
+					font-family: 'Newsreader', serif;
+				  font-stretch: 100%;
+					color: black;
+				    text-align: justify;
+				    -moz-text-align-last: justify;
+				}
+					
+				.comingsoon {
+					font-size: 10px;
+					line-height: 30px;
+					font-family: 'Newsreader', serif;
+				  font-stretch: 100%;
+					text-align: center;
+					color: black;
+				}
 
 
-}
+				.header {
+					font-size: 18px;
+					line-height: 30px;
+					font-family: 'Junicode', serif;
+				  	font-stretch: 100%;
+					text-align: left;
+					color: black;
+					background-color: white;
+				}
 
-*/
+				.content {
+					font-size: 13px;
+					line-height: 20px;
+					font-family: 'Newsreader', serif;
+				  	font-stretch: 100%;
+					color: black;
+				    text-align: justify;
+				    -moz-text-align-last: justify;
+				}
+
+				/* Below .content1 class describes text in iframe */
+
+				.content1 {
+				  font-size: 13px;
+				  line-height: 20px;
+				  font-family: 'Newsreader', serif;
+				  font-stretch: 100%;
+				  color: black;
+				  text-align: justify;
+				 -moz-text-align-last: justify;
+				}
+
+				.info {
+					font-size: 13px;
+					line-height: 20px;
+					font-family: 'Newsreader', serif;
+				  	font-stretch: 100%;
+					color: black;
+					border:0;
+					margin: 0;
+					-ms-overflow-style: none;
+				  	scrollbar-width: none;
+				}
+
+				.info::-webkit-scrollbar {
+				  display: none;
+				}
+
+				.fadein {
+				    position:absolute;
+				    top:0px;
+				    margin:auto;
+				    top: 13%;
+				    left: 22%;
+				    width:56%;
+				    height:20%;
+					font-size: 10px;
+					z-index:5;
+					font-family: 'Newsreader', serif;
+				  font-stretch: 100%;
+				}
+
+				.caption {
+					font-size: 11px;
+				    position:absolute;
+				    top:0px;
+				    margin:auto;
+				    top: 460px;
+				    left: 0%;
+				    width:100%;
+				    height:20%;
+					font-family: 'Newsreader', serif;
+				  font-stretch: 100%;
+				}		
+
+
+		}
+
+
 
 
 /* **************. BELOW IS FOR ALL FORMATS  *************** */
