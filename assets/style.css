@@ -261,7 +261,7 @@ iframe {
 	font-family: 'Junicode', serif;
 	text-align: left;
 	color: black;
-	background-color: white;
+	/* background-color: white; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -537,7 +537,7 @@ iframe {
 				  	font-stretch: 100%;
 					text-align: left;
 					color: black;
-					background-color: white;
+					/* background-color: white; */
 				}
 
 				/* Hide scrollbar for Chrome, Safari and Opera */
@@ -815,7 +815,7 @@ iframe {
   	font-stretch: 100%;
 	text-align: left;
 	color: black;
-	background-color: white;
+	/* background-color: white; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -1094,7 +1094,7 @@ iframe {
 		  	font-stretch: 100%;
 			text-align: left;
 			color: black;
-			background-color: white;
+			/* background-color: white; */
 		}
 
 		/* Hide scrollbar for Chrome, Safari and Opera */
@@ -1377,7 +1377,7 @@ iframe {
 								  	font-stretch: 100%;
 									text-align: left;
 									color: black;
-									background-color: white;
+									/* background-color: white; */
 								}
 
 								/* Hide scrollbar for Chrome, Safari and Opera */
