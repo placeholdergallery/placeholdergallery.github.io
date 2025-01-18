@@ -19,6 +19,11 @@
 	padding-left:2.5em;
 }
 
+#redact {
+	font-family: arial, sans-serif;
+
+}
+
 @font-face {
   font-family: 'Junicode-Bold';
   src: url('fonts/Junicode-Bold.woff') format('woff');
