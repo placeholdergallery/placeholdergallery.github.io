@@ -143,10 +143,10 @@
 #content
         {
     position: fixed;
-    top: 10%;
+    top: 9%;
     left: 22%;
     width:56%;
-    height:89%;
+    height:91%;
     z-index: 2;
     display: block;
     overflow: scroll;
@@ -419,10 +419,10 @@ iframe {
 				#content
 				        {
 				    position: fixed;
-				    top: 11%;
+				    top: 10%;
 				    left: 10%;
 				    width:80%;
-				    height:89%;
+				    height:90%;
 				    z-index: 2;
 				    display: block;
 				    overflow: scroll;
@@ -697,10 +697,10 @@ iframe {
 #content
         {
     position: fixed;
-    top: 15%;
+    top: 14%;
     left: 22%;
     width:56%;
-    height:89%;
+    height:86%;
     z-index: 2;
     display: block;
     overflow: scroll;
@@ -976,10 +976,10 @@ iframe {
 		#content
 		        {
 		    position: fixed;
-		    top: 15%;
+		    top: 14%;
 		    left: 10%;
 		    width:80%;
-		    height:89%;
+		    height:86%;
 		    z-index: 2;
 		    display: block;
 		    overflow: scroll;
@@ -1259,10 +1259,10 @@ iframe {
 								#content
 								        {
 								    position: fixed;
-								    top: 15%;
+								    top: 14%;
 								    left: 10%;
 								    width:80%;
-								    height:89%;
+								    height:86%;
 								    z-index: 2;
 								    display: block;
 								    overflow: scroll;
