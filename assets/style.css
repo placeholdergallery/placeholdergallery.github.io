@@ -24,6 +24,7 @@
 
 }
 
+
 @font-face {
   font-family: 'Junicode-Bold';
   src: url('fonts/Junicode-Bold.woff') format('woff');
@@ -142,7 +143,7 @@
 #content
         {
     position: fixed;
-    top: 11%;
+    top: 10%;
     left: 22%;
     width:56%;
     height:89%;
@@ -151,6 +152,8 @@
     overflow: scroll;
     text-align: justify;
     -moz-text-align-last: justify;
+      		-webkit-mask-image: linear-gradient(transparent, black 3%);
+  			mask-image: linear-gradient (transparent, black 3%);
 }
 
 /* #content1 id is used for text in iframe on Artists page */
@@ -230,6 +233,8 @@ iframe {
 	font-family: 'Newsreader', serif;
 	overflow: scroll;
 	color: black;
+		     -webkit-mask-image: linear-gradient(transparent, black 2%);
+  			mask-image: linear-gradient (transparent, black 2%);
 		}
 
 
