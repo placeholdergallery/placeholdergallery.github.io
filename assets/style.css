@@ -24,6 +24,18 @@
 
 }
 
+/* Below: bar for Footer
+to use, enter 	
+<div class="rectangle"></div></br></br>
+ */
+.rectangle {
+    left: 10%;
+    width:100%;
+    height:0.25%;
+    z-index: 2;
+	background: linear-gradient(0.25turn, #fed0db, #fdd3d3, #fedad8, #ffe5dd, #ffeadc, #ffefd9, #fff2db, #fff5dd, #f2f0e0, #e6eae4, #e1e3f0, #ddddf9, #e0dcf1, #e0dcf1, #dacde4);
+}
+
 
 @font-face {
   font-family: 'Junicode-Bold';
