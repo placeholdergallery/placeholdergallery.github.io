@@ -33,7 +33,8 @@ to use, enter
     width:100%;
     height:0.25%;
     z-index: 2;
-	background: linear-gradient(0.25turn, #fed0db, #fdd3d3, #fedad8, #ffe5dd, #ffeadc, #ffefd9, #fff2db, #fff5dd, #f2f0e0, #e6eae4, #e1e3f0, #ddddf9, #e0dcf1, #e0dcf1, #dacde4);
+   	background: linear-gradient (0.25turn, #a61215, #e1532b, #e2870e, #cda142, #506449, #3f41a3, #351f4d);
+	/*background: linear-gradient(0.25turn, #fed0db, #fdd3d3, #fedad8, #ffe5dd, #ffeadc, #ffefd9, #fff2db, #fff5dd, #f2f0e0, #e6eae4, #e1e3f0, #ddddf9, #e0dcf1, #e0dcf1, #dacde4);*/
 }
 
 
@@ -152,12 +153,15 @@ to use, enter
     overflow: hidden;
 }
 
+
 #content
         {
     position: fixed;
     top: 9%;
-    left: 22%;
-    width:56%;
+ /* left: 22%;
+    width:56%; */
+    padding-left: 21%;
+    padding-right: 21.5%;
     height:91%;
     z-index: 2;
     display: block;
@@ -167,6 +171,8 @@ to use, enter
       		-webkit-mask-image: linear-gradient(transparent, black 3%);
   			mask-image: linear-gradient (transparent, black 3%);
 }
+
+
 
 /* #content1 id is used for text in iframe on Artists page */
 
@@ -235,8 +241,8 @@ iframe {
   	position: fixed;
   	border:0;
     top: 15.25%;
-    left: 43%;
-    width:35%;
+	left: 43%;
+	width:35%;
     height:90%;
     z-index: 4;
     display: block;
@@ -304,7 +310,7 @@ iframe {
 	color: black;
     text-align: justify;
     -moz-text-align-last: justify;
-}
+} 
 
 /* Below .content1 class describes text in iframe */
 
@@ -432,8 +438,10 @@ iframe {
 				        {
 				    position: fixed;
 				    top: 10%;
-				    left: 10%;
-				    width:80%;
+				    padding-right: 11%;
+    				padding-left: 9%;
+				 /* left: 10%;
+				    width:80%;  */
 				    height:90%;
 				    z-index: 2;
 				    display: block;
@@ -710,8 +718,10 @@ iframe {
         {
     position: fixed;
     top: 14%;
-    left: 22%;
-    width:56%;
+/*  left: 22%;
+    width:56%; */
+    padding-left: 21%;
+    padding-right: 21.5%;
     height:86%;
     z-index: 2;
     display: block;
@@ -989,8 +999,10 @@ iframe {
 		        {
 		    position: fixed;
 		    top: 14%;
-		    left: 10%;
-		    width:80%;
+		 /* left: 10%;
+		    width:80%; */
+		    padding-left: 9%;
+    		padding-right: 11%;
 		    height:86%;
 		    z-index: 2;
 		    display: block;
@@ -1272,8 +1284,10 @@ iframe {
 								        {
 								    position: fixed;
 								    top: 14%;
-								    left: 10%;
-								    width:80%;
+								/*  left: 10%;
+								    width:80%; */
+								    padding-left: 8%;
+    								padding-right: 10%;
 								    height:86%;
 								    z-index: 2;
 								    display: block;
