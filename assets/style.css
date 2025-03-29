@@ -380,7 +380,7 @@ iframe {
 	font-size: 13px;
 	line-height: 20px;
 	font-family: 'Newsreader', serif;
-  font-stretch: 100%;
+  	font-stretch: 100%;
 	color: black;
 	border:0;
 	margin: 0;
@@ -518,7 +518,7 @@ iframe {
 				    position: fixed;
 				    top: 11%;
 				    left: 10%;
-				    width:80%;
+				    width:90%;
 				    height:89%;
 				    z-index: 2;
 				    display: block;
@@ -538,7 +538,6 @@ iframe {
 				    display: block;
 					line-height: 18px;
 					font-family: 'Newsreader', serif;
-				  	font-stretch: 90%;
 					overflow: scroll;
 				    text-align: justify;
 					color: black;
@@ -580,8 +579,8 @@ iframe {
 				  	border:0;
 				    top: 14%;
 				    left: 40%;
-				    width:40%;
-				    height:90%;
+				    width: 50%;
+				    height: 90%;
 				    z-index: 4;
 				    display: block;
 				    font-size: 11px;
@@ -1087,8 +1086,8 @@ iframe {
 		  	border:0;
 		    top: 18%;
 		    left: 40%;
-		    width:40%;
-		    height:90%;
+		    width: 50%;
+		    height: 90%;
 		    z-index: 4;
 		    display: block;
 		    font-size: 11px;
@@ -1354,8 +1353,8 @@ iframe {
 								  	position: fixed;
 								  	border:0;
 								    top: 13%;
-								    left: 40%;
-								    width:46%;
+								    left: 43%;
+								    width: 45%;
 								    height:90%;
 								    z-index: 4;
 								    display: block;
