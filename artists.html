@@ -36,6 +36,12 @@
 </head>
 
 <body>
+	<script>
+	if (window.self !== window.top) {
+  	document.body.classList.add("no-stamp");
+	}
+	</script>
+
 	<iframe src="blank.html" name="infoframe"></iframe>
 	
 	<!-- Header -->

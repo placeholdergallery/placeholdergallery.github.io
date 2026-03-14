@@ -43,7 +43,20 @@ body{
 	margin:0;
 	-ms-overflow-style: none;
  	scrollbar-width: none;
+
+
+/* STAMP CODE */
+  background-image: url("Stamp1.png"); /* Specify the image file */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: bottom 19px left 35px; /* Center the image in the viewport */
+  background-size: 95px 95px; /* Ensure the image covers the entire area while maintaining aspect ratio */
+  background-attachment: fixed; /* Keep the image fixed in the viewport during scroll */
 }
+
+body.no-stamp {
+  background-image: none !important;
+}
+
 
 body::-webkit-scrollbar {
     display: none;
